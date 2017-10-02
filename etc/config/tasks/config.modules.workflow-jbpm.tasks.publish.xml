@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:rep="internal" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:jcrfn="http://www.jcp.org/jcr/xpath-functions/1.0" xmlns:fn_old="http://www.w3.org/2004/10/xpath-functions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mgnl="http://www.magnolia.info/jcr/mgnl" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" sv:name="publish">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>mgnl:contentNode</sv:value>
+  </sv:property>
+  <sv:property sv:name="class" sv:type="String">
+    <sv:value>info.magnolia.module.workflow.jbpm.humantask.definition.PublicationTaskDefinition</sv:value>
+  </sv:property>
+  <sv:property sv:name="parameterResolver" sv:type="String">
+    <sv:value>info.magnolia.module.workflow.jbpm.humantask.parameter.ExtendedPublicationTaskParameterResolver</sv:value>
+  </sv:property>
+  <sv:property sv:name="presenterClass" sv:type="String">
+    <sv:value>info.magnolia.module.workflow.jbpm.humantask.view.PublicationTaskPresenter</sv:value>
+  </sv:property>
+  <sv:property sv:name="taskJobFactoryClass" sv:type="String">
+    <sv:value>info.magnolia.module.workflow.jbpm.humantask.schedule.PublicationTaskJobFactory</sv:value>
+  </sv:property>
+  <sv:node sv:name="groups">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="publishers" sv:type="String">
+      <sv:value>publishers</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="viewMapping">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>mgnl:contentNode</sv:value>
+    </sv:property>
+    <sv:property sv:name="default" sv:type="String">
+      <sv:value>workflow:publish</sv:value>
+    </sv:property>
+    <sv:property sv:name="website" sv:type="String">
+      <sv:value>pages:publish</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
+
